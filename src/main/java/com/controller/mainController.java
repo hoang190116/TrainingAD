@@ -28,7 +28,7 @@ import org.springframework.web.servlet.ModelAndView;
  * @author Admin
  */
 @Controller
-//@RequestMapping(value="/")
+@RequestMapping(value="/")
 public class mainController {
     private String checking;
     private boolean checkPass;
@@ -46,7 +46,7 @@ public class mainController {
     @Autowired
     private userDAO daoUser;
     
-    @RequestMapping(value = "/index")
+    @RequestMapping(value = {"/index", "/"})
     public ModelAndView list(ModelAndView model){
         this.checking = null;
         staff = false;
