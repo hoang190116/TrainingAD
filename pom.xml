@@ -101,12 +101,12 @@
                                     <version>7.0</version>
                                     <type>jar</type>
                                 </artifactItem>
-                                <artifactItem>
+<!--                                 <artifactItem>
                                     <groupId>com.github.heroku</groupId>
                                     <artifactId>webapp-runner</artifactId>
                                     <version>9.0.38.0</version>
                                     <destFileName>webapp-runner.jar</destFileName>
-                                </artifactItem>
+                                </artifactItem> -->
                             </artifactItems>
                         </configuration>
                     </execution>
