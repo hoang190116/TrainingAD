@@ -87,10 +87,13 @@
                 <version>2.6</version>
                 <executions>
                     <execution>
-                        <phase>validate</phase>
-                        <goals>
+                        <id>copy-dependencies</id>
+<!--                         <phase>validate</phase> -->
+                        <phase>package</phase>
+<!--                         <goals>
                             <goal>copy</goal>
-                        </goals>
+                        </goals> -->
+                        <goals><goal>copy-dependencies</goal></goals>
                         <configuration>
                             <outputDirectory>${endorsed.dir}</outputDirectory>
                             <silent>true</silent>
