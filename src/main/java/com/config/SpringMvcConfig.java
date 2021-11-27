@@ -34,10 +34,6 @@ import org.springframework.web.servlet.view.InternalResourceViewResolver;
 //@EnableTransactionManagement
 public class SpringMvcConfig {
     
-  public static void main(String[] args) throws Exception {
-    SpringApplication.run(SpringMvcConfig.class, args);
-  }
-    
     @Bean
     public DataSource getData(){
         DriverManagerDataSource dt = new DriverManagerDataSource();

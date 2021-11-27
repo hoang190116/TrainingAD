@@ -106,6 +106,7 @@ import java.util.List;
 import java.util.regex.Pattern;
 import javax.servlet.http.HttpServletRequest;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.SpringApplication;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -126,6 +127,10 @@ public class Main {
     private boolean staff;
     private boolean FK = false;
     private Integer id;
+    
+    public static void main(String[] args) throws Exception {
+    SpringApplication.run(Main.class, args);
+  }
             
 //    @Autowired
 //    private categoryDAO Catedao;
