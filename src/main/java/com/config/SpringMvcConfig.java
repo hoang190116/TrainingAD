@@ -36,7 +36,7 @@ public class SpringMvcConfig {
     public DataSource getData(){
         DriverManagerDataSource dt = new DriverManagerDataSource();
         dt.setDriverClassName("com.microsoft.sqlserver.jdbc.SQLServerDriver");
-        dt.setUrl("jdbc:sqlserver://ADMIN:1433;databaseName=training");
+        dt.setUrl("jdbc:sqlserver://52.221.211.156:1433;databaseName=training");
         dt.setUsername("sa");
         dt.setPassword("admin@123");
         
