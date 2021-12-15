@@ -1,1 +1,1 @@
-# Spring MVC Template
+# Spring MVC
