@@ -1,6 +1,6 @@
 # Spring MVC
 
-Tool: Netbeans IDE 12.3__
+Tool: Netbeans IDE 12.3_
 Java version: 1.8__
 Web Server: Apache Tomcat 9__
 Database: Microsoft SQL Server Management Studio 18 - SQL Server 2019
