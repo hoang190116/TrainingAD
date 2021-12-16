@@ -1,9 +1,9 @@
 # Spring MVC
 
-Tool: Netbeans IDE 12.3
-Java version: 1.8
-Web Server: Apache Tomcat 9
-Database: Microsoft SQL Server Management Studio 18 - SQL Server 2019
+#Tool: Netbeans IDE 12.3
+#Java version: 1.8
+#Web Server: Apache Tomcat 9
+#Database: Microsoft SQL Server Management Studio 18 - SQL Server 2019
 
 *For database
 1.Create the database name "training" in your SQL Studio 18
