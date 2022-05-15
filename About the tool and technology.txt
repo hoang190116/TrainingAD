@@ -1,3 +1,6 @@
+This system can be used to manage trainee accounts, manage trainers, manage course categories, manage courses, manage topics, assign topic to course, assign trainer to topic, assign trainee to course.
+This is a system used by HR department. We have three roles in this system, an administrator, training staff and a trainer.
+
 Tool: Netbeans IDE 12.3
 Java version: 1.8
 Web Server: Apache Tomcat 9
